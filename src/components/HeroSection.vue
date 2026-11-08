@@ -10,8 +10,8 @@ const { t, l, locale } = useI18n()
 const codeLines = computed(() => [
   ['kw', 'const '], ['id', 'developer'], ['op', ' = {'], ['br'],
   ['ind'], ['key', 'name'], ['op', ': '], ['str', `'${profile.name}'`], ['op', ','], ['br'],
-  ['ind'], ['key', 'role'], ['op', ': '], ['str', `'Senior Frontend'`], ['op', ','], ['br'],
-  ['ind'], ['key', 'stack'], ['op', ': ['], ['str', `'Vue'`], ['op', ', '], ['str', `'React'`], ['op', ', '], ['str', `'TS'`], ['op', '],'], ['br'],
+  ['ind'], ['key', 'role'], ['op', ': '], ['str', `'Senior Full Stack'`], ['op', ','], ['br'],
+  ['ind'], ['key', 'stack'], ['op', ': ['], ['str', `'Vue 3'`], ['op', ', '], ['str', `'React'`], ['op', ', '], ['str', `'TS'`], ['op', ', '], ['str', `'Node'`], ['op', '],'], ['br'],
   ['ind'], ['key', 'speaks'], ['op', ': ['], ['str', `'es'`], ['op', ', '], ['str', `'en'`], ['op', '],'], ['br'],
   ['ind'], ['key', 'available'], ['op', ': '], ['kw', String(profile.available)], ['op', ','], ['br'],
   ['ind'], ['fn', 'ship'], ['op', ': () => '], ['str', locale.value === 'es' ? `'con calidad'` : `'with care'`], ['br'],

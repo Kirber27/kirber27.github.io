@@ -4,43 +4,36 @@
  * ─────────────────────────────────────────────────────────────
  *  Every field with { en, es } is shown in the active language.
  *  Cada campo con { en, es } se muestra según el idioma activo.
- *
- *  Search for "TODO" and replace with your real information.
- *  Busca "TODO" y reemplázalo con tu información real.
  */
 
 export const profile = {
-  // TODO: your full name / tu nombre completo
-  name: 'Kirber',
+  name: 'Kirber Pineda',
   githubUser: 'Kirber27',
+  // The hero splits the role on " / " into two lines.
   role: {
-    en: 'Senior Frontend / JavaScript Developer',
-    es: 'Senior Frontend / JavaScript Developer'
+    en: 'Senior Full Stack / Vue · React · TypeScript Developer',
+    es: 'Desarrollador Full Stack Senior / Vue · React · TypeScript'
   },
-  // TODO: city, country
-  location: { en: 'Santiago, Chile · Remote', es: 'Santiago, Chile · Remoto' },
+  location: { en: 'Chile · Remote / Hybrid', es: 'Chile · Remoto / Híbrido' },
   available: true,
   headline: {
-    en: 'I build fast, accessible web products that scale — and the frontend architecture that keeps teams shipping.',
-    es: 'Construyo productos web rápidos y accesibles que escalan, y la arquitectura frontend que permite a los equipos seguir entregando.'
+    en: 'I build web applications for the public sector, telecom and corporate clients — with Vue 3, TypeScript and Node.js, and AI built into my daily workflow.',
+    es: 'Construyo aplicaciones web para el sector público, telecomunicaciones y clientes corporativos, con Vue 3, TypeScript y Node.js, y con IA integrada en mi flujo de trabajo diario.'
   },
   intro: {
-    en: 'JavaScript specialist focused on Vue, React and TypeScript. I care about performance budgets, design systems, clean component APIs and developer experience.',
-    es: 'Especialista en JavaScript con foco en Vue, React y TypeScript. Me importan los presupuestos de rendimiento, los design systems, las APIs de componentes limpias y la experiencia de desarrollo.'
+    en: 'Systems Engineer and Full Stack Developer with 6+ years of experience in Chile, building web applications for the public sector (SII), telecommunications (Entel) and corporate clients. Specialist in Vue 3 (Composition API) and JavaScript/TypeScript, with backend experience in Node.js, NestJS and Spring Boot microservices.',
+    es: 'Ingeniero de Sistemas y Desarrollador Full Stack con más de 6 años de experiencia en Chile, construyendo aplicaciones web para el sector público (SII), telecomunicaciones (Entel) y clientes corporativos. Especialista en Vue 3 (Composition API) y JavaScript/TypeScript, con experiencia en backend con Node.js, NestJS y microservicios Spring Boot.'
   },
-  // TODO: adjust numbers / ajusta los números
   stats: [
-    { value: '8+', label: { en: 'years writing JavaScript', es: 'años escribiendo JavaScript' } },
-    { value: '30+', label: { en: 'production releases', es: 'releases en producción' } },
-    { value: '95+', label: { en: 'Lighthouse perf target', es: 'meta de Lighthouse perf' } }
+    { value: '6+', label: { en: 'years building for the web', es: 'años desarrollando para la web' } },
+    { value: '10+', label: { en: 'corporate projects managed in parallel', es: 'proyectos corporativos gestionados en paralelo' } },
+    { value: '6', label: { en: 'developers coordinated under Scrum', es: 'desarrolladores coordinados bajo Scrum' } }
   ],
   links: {
     github: 'https://github.com/Kirber27',
-    // TODO: your LinkedIn URL / tu URL de LinkedIn ('' to hide)
-    linkedin: '',
-    // TODO: your email / tu correo
-    email: 'kjpr.2904@gmail.com',
-    // TODO: put your CV PDF in /public/cv.pdf ('' to hide the button)
+    linkedin: 'https://www.linkedin.com/in/kirber-pineda',
+    email: 'kirber.27@gmail.com',
+    // Put your CV PDF in /public/cv.pdf and set this to '/cv.pdf' ('' hides the button)
     cv: ''
   }
 }
@@ -48,109 +41,115 @@ export const profile = {
 export const about = {
   paragraphs: [
     {
-      en: 'I am a frontend engineer who enjoys turning complex business requirements into interfaces that feel simple. Over the years I have moved from building screens to owning the architecture behind them: state management, component libraries, testing strategy and CI pipelines.',
-      es: 'Soy ingeniero frontend y disfruto transformar requerimientos de negocio complejos en interfaces que se sienten simples. Con los años pasé de construir pantallas a ser responsable de la arquitectura detrás de ellas: manejo de estado, librerías de componentes, estrategia de testing y pipelines de CI.'
+      en: 'I use AI applied to development every day — Claude Code, GitHub Copilot, MCP servers and context engineering — to ship faster and raise code quality. I have coordinated Scrum teams and work directly with Product Owners and clients.',
+      es: 'Uso a diario IA aplicada al desarrollo (Claude Code, GitHub Copilot, servidores MCP y context engineering) para acelerar entregas y mejorar la calidad del código. Tengo experiencia coordinando equipos Scrum y trabajando directamente con Product Owners y clientes.'
     },
     {
-      en: 'I work best in product teams where I can mentor other developers, review code with care, and collaborate closely with design and backend to ship measurable improvements.',
-      es: 'Trabajo mejor en equipos de producto donde puedo guiar a otros desarrolladores, revisar código con cuidado y colaborar de cerca con diseño y backend para entregar mejoras medibles.'
+      en: 'I hold a degree in Systems Engineering (UNEXPO, Caracas, 2018) and I am currently taking a Diploma in Artificial Intelligence at INACAP (2026). Spanish is my native language; my English is intermediate, comfortable with technical documentation.',
+      es: 'Soy Ingeniero de Sistemas (UNEXPO, Caracas, 2018) y actualmente curso un Diplomado en Inteligencia Artificial en INACAP (2026). Español nativo e inglés intermedio, con lectura fluida de documentación técnica.'
     }
   ],
   principles: [
     {
-      title: { en: 'Performance is a feature', es: 'El rendimiento es una feature' },
+      title: { en: 'Reusable by design', es: 'Reutilizable desde el diseño' },
       text: {
-        en: 'Code-splitting, lazy hydration and real-user metrics (Core Web Vitals) from day one.',
-        es: 'Code-splitting, carga diferida y métricas reales de usuario (Core Web Vitals) desde el primer día.'
+        en: 'Standardised Vue components and SPAs that cut development time on every new project.',
+        es: 'Componentes Vue y SPAs estandarizados que reducen el tiempo de desarrollo de cada nuevo proyecto.'
       }
     },
     {
-      title: { en: 'Accessible by default', es: 'Accesible por defecto' },
+      title: { en: 'AI-assisted, human-reviewed', es: 'Asistido por IA, revisado por personas' },
       text: {
-        en: 'Semantic HTML, keyboard navigation and WCAG 2.2 AA as a baseline, not an afterthought.',
-        es: 'HTML semántico, navegación por teclado y WCAG 2.2 AA como base, no como un extra.'
+        en: 'Claude Code, Copilot and MCP to move faster, with context engineering and careful review to keep quality high.',
+        es: 'Claude Code, Copilot y MCP para avanzar más rápido, con context engineering y revisión cuidadosa para mantener la calidad.'
       }
     },
     {
-      title: { en: 'Boring, testable code', es: 'Código predecible y testeable' },
+      title: { en: 'Close to the business', es: 'Cerca del negocio' },
       text: {
-        en: 'Small composables, typed contracts and tests that document behaviour.',
-        es: 'Composables pequeños, contratos tipados y tests que documentan el comportamiento.'
+        en: 'Working with Product Owners on backlog and priorities, with traceable delivery through Git and Jira.',
+        es: 'Trabajo con Product Owners en el backlog y las prioridades, con entregas trazables mediante Git y Jira.'
       }
     }
   ]
 }
 
-/**
- * TODO: replace with your real experience (most recent first).
- * TODO: reemplaza con tu experiencia real (la más reciente primero).
- * Tip: start each highlight with a verb and include a number.
- * Consejo: empieza cada logro con un verbo e incluye una cifra.
- */
+/** Work experience, most recent first. */
 export const experience = [
   {
-    company: 'Company / Empresa',
+    company: 'Sonda (SII project)',
     url: '',
-    role: { en: 'Senior Frontend Developer', es: 'Senior Frontend Developer' },
-    period: { en: '2022 — Present', es: '2022 — Actualidad' },
-    location: { en: 'Remote', es: 'Remoto' },
+    role: { en: 'Specialised Frontend Developer', es: 'Desarrollador Frontend Especializado' },
+    period: { en: 'Aug 2025 — Present', es: 'Ago 2025 — Actualidad' },
+    location: { en: 'Chile', es: 'Chile' },
     highlights: [
       {
-        en: 'Led the migration of a legacy SPA to Vue 3 + Vite + TypeScript, cutting build times by 70%.',
-        es: 'Lideré la migración de una SPA legacy a Vue 3 + Vite + TypeScript, reduciendo los tiempos de build en un 70%.'
+        en: 'Build views for Chile’s Internal Revenue Service (SII) platforms with Vue 3, JavaScript, Sass and Bootstrap 5, as part of modernising high-impact public services.',
+        es: 'Desarrollo vistas para plataformas del Servicio de Impuestos Internos (SII) con Vue 3, JavaScript, Sass y Bootstrap 5, como parte de la modernización de servicios de alto impacto ciudadano.'
       },
       {
-        en: 'Designed a shared component library used by 4 product teams, with visual regression tests.',
-        es: 'Diseñé una librería de componentes compartida usada por 4 equipos de producto, con tests de regresión visual.'
+        en: 'Develop Spring Boot microservices and integrate frontend and backend through REST APIs, across the full stack.',
+        es: 'Desarrollo microservicios con Spring Boot e integro frontend y backend mediante APIs REST, participando en el ciclo full stack del proyecto.'
       },
       {
-        en: 'Improved LCP from 4.1s to 1.8s through route-level code-splitting and image optimisation.',
-        es: 'Mejoré el LCP de 4,1 s a 1,8 s mediante code-splitting por ruta y optimización de imágenes.'
+        en: 'Brought Claude Code, GitHub Copilot and MCP servers into the development workflow, applying context engineering to speed up delivery and raise code quality.',
+        es: 'Incorporé Claude Code, GitHub Copilot y servidores MCP al flujo de desarrollo, aplicando context engineering para acelerar las entregas y elevar la calidad del código.'
+      },
+      {
+        en: 'Ensure traceability and version control on every delivery with Git, GitLab, Bitbucket and Jira.',
+        es: 'Aseguro trazabilidad y control de versiones en cada entrega con Git, GitLab, Bitbucket y Jira.'
       }
     ],
-    stack: ['Vue 3', 'TypeScript', 'Pinia', 'Vite', 'Vitest', 'Playwright']
+    stack: ['Vue 3', 'JavaScript', 'Sass', 'Bootstrap 5', 'Spring Boot', 'REST APIs', 'Claude Code', 'MCP']
   },
   {
-    company: 'Company / Empresa',
+    company: 'Entel',
     url: '',
-    role: { en: 'Frontend Developer', es: 'Frontend Developer' },
-    period: { en: '2019 — 2022', es: '2019 — 2022' },
-    location: { en: 'Santiago, Chile', es: 'Santiago, Chile' },
+    role: { en: 'Frontend Consultant', es: 'Consultor Frontend' },
+    period: { en: 'May 2022 — Jan 2025', es: 'May 2022 — Ene 2025' },
+    location: { en: 'Chile', es: 'Chile' },
     highlights: [
       {
-        en: 'Built customer-facing dashboards in React consuming REST and GraphQL APIs.',
-        es: 'Desarrollé dashboards para clientes en React consumiendo APIs REST y GraphQL.'
+        en: 'Managed 10+ corporate client projects in parallel: migrations and implementations in Vue 3 (Composition API) on Modyo 11, resolving requirements and incidents and reducing the team’s response times.',
+        es: 'Gestioné en paralelo más de 10 proyectos de clientes corporativos: migraciones e implementaciones en Vue 3 (Composition API) sobre Modyo 11, resolviendo requerimientos e incidentes y reduciendo los tiempos de respuesta del equipo.'
       },
       {
-        en: 'Introduced unit and E2E testing in CI, raising coverage from 10% to 75%.',
-        es: 'Introduje tests unitarios y E2E en CI, subiendo la cobertura del 10% al 75%.'
+        en: 'Standardised reusable components for Vue.js SPAs, cutting development time for new projects in high-demand environments.',
+        es: 'Estandaricé componentes reutilizables para SPAs en Vue.js, lo que redujo los tiempos de desarrollo de nuevos proyectos en entornos de alta demanda.'
       },
       {
-        en: 'Mentored 3 junior developers through code reviews and pair programming.',
-        es: 'Guié a 3 desarrolladores junior mediante code reviews y pair programming.'
+        en: 'Supported the Product Owner with planning and backlog management in Jira, coordinating a team of 6 developers under Scrum and improving sprint efficiency.',
+        es: 'Apoyé al Product Owner en la planificación y gestión del backlog en Jira, coordinando un equipo de 6 desarrolladores bajo Scrum y mejorando la eficiencia de los sprints.'
+      },
+      {
+        en: 'Coordinated with business and technology teams to ensure delivery quality and compliance with client standards.',
+        es: 'Coordiné con equipos de negocio y tecnología para asegurar la calidad de las entregas y el cumplimiento de los estándares del cliente.'
       }
     ],
-    stack: ['React', 'JavaScript', 'GraphQL', 'Jest', 'Sass']
+    stack: ['Vue 3', 'React', 'Modyo 11', 'JavaScript', 'Jira', 'Scrum']
   },
   {
-    company: 'Company / Empresa',
+    company: 'Digital Beat (Entel projects)',
     url: '',
-    role: { en: 'Web Developer', es: 'Desarrollador Web' },
-    period: { en: '2016 — 2019', es: '2016 — 2019' },
-    location: { en: 'Santiago, Chile', es: 'Santiago, Chile' },
+    role: { en: 'Frontend Developer', es: 'Desarrollador Frontend' },
+    period: { en: 'Jul 2021 — Apr 2022', es: 'Jul 2021 — Abr 2022' },
+    location: { en: 'Chile', es: 'Chile' },
     highlights: [
       {
-        en: 'Delivered responsive websites and internal tools with JavaScript, jQuery and Node.js.',
-        es: 'Entregué sitios responsivos y herramientas internas con JavaScript, jQuery y Node.js.'
+        en: 'Built responsive, high-performance views with HTML5, CSS3, Sass, JavaScript, jQuery and Bootstrap 5.',
+        es: 'Desarrollé vistas responsivas y de alto rendimiento con HTML5, CSS3, Sass, JavaScript, jQuery y Bootstrap 5.'
+      },
+      {
+        en: 'Worked with the Product Owner to prioritise requirements, aligning client needs with the delivered solutions.',
+        es: 'Trabajé con el Product Owner en la priorización de requerimientos, alineando las necesidades del cliente con las soluciones entregadas.'
       }
     ],
-    stack: ['JavaScript', 'Node.js', 'HTML', 'CSS']
-  }
+    stack: ['HTML5', 'CSS3', 'Sass', 'JavaScript', 'jQuery', 'Bootstrap 5']
+  },
 ]
 
 /**
  * Featured projects (case studies). Pick 2–4 that best show your level.
- * Proyectos destacados (casos de estudio). Elige 2–4 que muestren tu nivel.
  * `repo` / `demo` are optional. The live GitHub section below lists all public repos automatically.
  */
 export const featuredProjects = [
@@ -159,7 +158,7 @@ export const featuredProjects = [
     tag: { en: 'This site', es: 'Este sitio' },
     description: {
       en: 'Bilingual portfolio built with Vue 3 Composition API and Vite. Zero UI dependencies, custom i18n and theme composables, live GitHub data with caching, and automated deployment with GitHub Actions.',
-      es: 'Portafolio bilingüe hecho con Vue 3 Composition API y Vite. Sin dependencias de UI, composables propios de i18n y tema, datos de GitHub en vivo con caché y despliegue automático con GitHub Actions.'
+      es: 'Portafolio hecho con Vue 3 Composition API y Vite. Sin dependencias de UI, composables propios de i18n y tema, datos de GitHub en vivo con caché y despliegue automático con GitHub Actions.'
     },
     highlights: [
       { en: '~40 kB gzipped JS', es: '~40 kB de JS gzip' },
@@ -169,44 +168,36 @@ export const featuredProjects = [
     stack: ['Vue 3', 'Vite', 'Vitest', 'GitHub Actions'],
     repo: 'https://github.com/Kirber27/kirber27.github.io',
     demo: 'https://kirber27.github.io'
-  },
-  {
-    // TODO: replace with a real project / reemplaza con un proyecto real
-    title: 'Project name / Nombre del proyecto',
-    tag: { en: 'Case study', es: 'Caso de estudio' },
-    description: {
-      en: 'Problem → what you built → measurable result. E.g. an admin dashboard with role-based access, virtualised tables for 50k rows and offline support.',
-      es: 'Problema → qué construiste → resultado medible. Ej.: un panel de administración con acceso por roles, tablas virtualizadas para 50 mil filas y soporte offline.'
-    },
-    highlights: [
-      { en: 'Virtualised lists', es: 'Listas virtualizadas' },
-      { en: 'Role-based routing', es: 'Rutas por rol' }
-    ],
-    stack: ['Vue 3', 'TypeScript', 'Pinia'],
-    repo: '',
-    demo: ''
   }
 ]
 
 export const skills = [
   {
-    group: { en: 'Core', es: 'Núcleo' },
-    items: ['JavaScript (ES2024)', 'TypeScript', 'HTML5', 'CSS3 / Sass', 'Web APIs']
+    group: { en: 'Languages', es: 'Lenguajes' },
+    items: ['JavaScript (ES6+)', 'TypeScript', 'Java', 'PHP', 'SQL']
   },
   {
-    group: { en: 'Frameworks', es: 'Frameworks' },
-    items: ['Vue 3', 'Nuxt', 'Pinia', 'React', 'Next.js']
+    group: { en: 'Frontend', es: 'Frontend' },
+    items: ['Vue 3 (Composition API)', 'React', 'Next.js', 'HTML5', 'CSS3', 'Sass', 'Tailwind CSS', 'Bootstrap 5', 'Material UI']
   },
   {
-    group: { en: 'Quality', es: 'Calidad' },
-    items: ['Vitest', 'Jest', 'Testing Library', 'Playwright', 'ESLint', 'Storybook']
+    group: { en: 'Backend', es: 'Backend' },
+    items: ['Node.js', 'NestJS', 'Spring Boot', 'REST APIs', 'JWT', 'Postman']
   },
   {
-    group: { en: 'Tooling & delivery', es: 'Herramientas y entrega' },
-    items: ['Vite', 'Webpack', 'Node.js', 'Git', 'GitHub Actions', 'Docker']
+    group: { en: 'Databases', es: 'Bases de datos' },
+    items: ['PostgreSQL', 'MySQL', 'SQL Server', 'MongoDB']
   },
   {
-    group: { en: 'Practices', es: 'Prácticas' },
-    items: ['Design systems', 'Web performance', 'Accessibility (WCAG)', 'Code review', 'Mentoring', 'Agile / Scrum']
+    group: { en: 'DevOps & Cloud', es: 'DevOps y Cloud' },
+    items: ['Git', 'GitHub', 'GitLab', 'Bitbucket', 'Docker', 'CI/CD', 'AWS (S3)']
+  },
+  {
+    group: { en: 'AI for development', es: 'IA para desarrollo' },
+    items: ['Claude Code', 'GitHub Copilot', 'ChatGPT', 'Claude Design', 'MCP', 'Prompting', 'Context engineering']
+  },
+  {
+    group: { en: 'Management & design', es: 'Gestión y diseño' },
+    items: ['Scrum', 'Jira', 'Figma', 'UI/UX', 'HubSpot (certified)']
   }
 ]

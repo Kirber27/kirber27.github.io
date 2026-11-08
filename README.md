@@ -1,6 +1,6 @@
 # kirber27.github.io
 
-Portafolio personal bilingüe (ES/EN) orientado a posiciones **Senior Frontend / JavaScript Developer**, hecho con **Vue 3 + Vite** y publicado en **GitHub Pages**.
+Portafolio personal bilingüe (ES/EN) orientado a posiciones **Senior Full Stack / Frontend Developer**, hecho con **Vue 3 + Vite** y publicado en **GitHub Pages**.
 
 🔗 https://kirber27.github.io
 
@@ -17,7 +17,7 @@ Portafolio personal bilingüe (ES/EN) orientado a posiciones **Senior Frontend /
 
 ## Editar el contenido
 
-Todo el contenido está en **`src/data/profile.js`** (busca `TODO`):
+Todo el contenido está en **`src/data/profile.js`** :
 nombre, enlaces, estadísticas, experiencia, proyectos destacados y habilidades.
 Los textos de la interfaz están en `src/i18n/messages.js`.
 

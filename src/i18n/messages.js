@@ -42,7 +42,7 @@ export const messages = {
       viewAll: 'View all on GitHub'
     },
     contact: {
-      text: "I'm looking for Senior Frontend / JavaScript roles in product teams — remote or hybrid. If you think I'd be a good fit, I'd love to hear from you.",
+      text: "I'm looking for Senior Full Stack or Frontend roles (Vue, React, TypeScript, Node.js) — remote or hybrid. If you think I'd be a good fit, I'd love to hear from you.",
       email: 'Send an email',
       copy: 'Copy email',
       copied: 'Copied!'
@@ -95,7 +95,7 @@ export const messages = {
       viewAll: 'Ver todos en GitHub'
     },
     contact: {
-      text: 'Busco posiciones Senior Frontend / JavaScript en equipos de producto, remoto o híbrido. Si crees que encajo, me encantaría conversar.',
+      text: 'Busco posiciones Senior Full Stack o Frontend (Vue, React, TypeScript, Node.js), en modalidad remota o híbrida. Si crees que encajo, me encantaría conversar.',
       email: 'Enviar un correo',
       copy: 'Copiar correo',
       copied: '¡Copiado!'
